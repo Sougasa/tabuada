@@ -36,4 +36,12 @@ function gerarTabuada() {
             breakRow.insertCell(0);
         }
     }
+    
 }
+document.addEventListener("DOMContentLoaded", function() {
+    // Seleciona o campo de entrada
+    var inputNumero = document.getElementById("numero");
+
+    // Foca no campo de entrada automaticamente
+    inputNumero.focus();
+});
