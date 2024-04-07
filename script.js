@@ -29,12 +29,6 @@ function gerarTabuada() {
         var newRow = tabuadaBody.insertRow();
         var cellOperacao = newRow.insertCell(0);
         cellOperacao.textContent = operacao;
-
-        // Quebra linha a cada 5 operações
-        if (i % 5 === 0) {
-            var breakRow = tabuadaBody.insertRow();
-            breakRow.insertCell(0);
-        }
     }
     
 }
