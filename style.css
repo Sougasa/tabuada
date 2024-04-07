@@ -19,9 +19,6 @@ h1 {
     color: #fff; /* Definindo a cor do texto do título como branco */
 }
 
-.tabuada {
-    margin-top: 20px;
-}
 
 table {
     width: 100%;
@@ -42,7 +39,11 @@ table th {
 }
 
 table tr:nth-child(even) {
-    background-color: #ad4ff6;
+    background-color: #9660e3;
+}
+
+table tr:nth-child(odd) {
+    background-color: #4ff6f6;
 }
 
 /* Adicionando estilos para o campo de entrada e o texto associado */
@@ -59,4 +60,12 @@ table tr:nth-child(even) {
     background-color: transparent; /* Fundo transparente do campo de entrada */
     color: #fff; /* Cor do texto dentro do campo de entrada */
     text-align: center; /* Alinhamento do texto dentro do campo de entrada */
+}
+
+#botaonumero{
+    margin-top: 30px;
+}
+
+.tabuada{
+    margin-top: 30px;
 }
